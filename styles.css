@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+
+#secretArea {
+    margin-top: 50px;
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+    border: 2px dashed #ff9800;
+}
+
+button.clicked {
+    background-color: blueviolet;
+    color: white;
+    border: 2px solid blueviolet;
+}
+
+#interactiveSection {
+    margin-top: 50px;
+}
+
+#changeTextButton {
+    background-color: royalblue;
+    color: white;
+}
+
+#imageGallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.galleryImage {
+    width: 100px;
+    margin: 0 50px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.galleryImage:hover {
+    transform: scale(1.2);
+}
+
+#formSection {
+    margin-top: 50px;
+}
+
+#formFeedback {
+    margin-top: 20px;
+    color: red;
+}

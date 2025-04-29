@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Features</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Interactive Web Features</h1>
+    <p id="clickMessage">Click the button to see a message!</p>
+    <button id="clickButton">Click me to see magic!</button>
+    <button id="hoverButton">Hover over me!</button>
+   
+
+    <div id="secretArea">
+        <p>Double-click or long press to see a secret!</p>
+    </div>
+
+    <div id="interactiveSection">
+        <button id="changeTextButton">Click to Change Text</button>
+        <div id="imageGallery">
+            <img src="image1.jpg" alt="Image 1" class="galleryImage" />
+            <img src="image2.jpg" alt="Image 2" class="galleryImage" />
+            <img src="image3.jpg" alt="Image 3" class="galleryImage" />
+        </div>
+    </div>
+
+    <div id="formSection">
+        <form id="myForm">
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" required><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="formFeedback"></div>
+    </div>
+
+    <!-- Link to the external script.js file -->
+    <script src="script.js"></script>
+</body>
+</html>
